@@ -14,4 +14,14 @@ public class Utils {
     public static Scanner createScanner(Object[] data) {
         return new Scanner(new ByteArrayInputStream(asString(data).getBytes()));
     }
+
+    public static Scanner createScanner(int i, String honza, int i1, String marek, int i2, String mirek) {
+        return null;
+    }
+
+    public static Scanner createScanner(int i, String honza, int i1, int i2, String kacka, int i3, String martin, int i4, int i5, String marek, int i6, String michal) {
+    }
+
+    public static Scanner createScanner(int i, int i1, int i2, String honza) {
+    }
 }
